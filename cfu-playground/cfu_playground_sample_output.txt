@@ -1,0 +1,58 @@
+Running Run with zeros input
+Zeroed 1600 bytes at 0x4009c0
+Running dscnn
+...........
+"Event","Tag","Ticks"
+0,SHAPE,7
+1,STRIDED_SLICE,21
+2,PACK,12
+3,RESHAPE,33
+4,CONV_2D,7867
+5,DEPTHWISE_CONV_2D,69
+6,CONV_2D,10785
+7,AVERAGE_POOL_2D,2258
+8,RESHAPE,7
+9,FULLY_CONNECTED,37
+10,SOFTMAX,190
+Perf counters not enable
+    27M (     26777075 )  cycles total
+RESULTS-- 
+backward: 0 
+bed: 1 
+bird: 0 
+cat: 3 
+dog: 0 
+down: 14 
+eight: 86 
+five: 0 
+follow: 0 
+forward: 0 
+four: 0 
+go: 12 
+house: 1 
+learn: 0 
+left: 4 
+marvin: 0 
+nine: 1 
+no: 33 
+off: 0 
+on: 0 
+one: 1 
+right: 14 
+seven: 0 
+sheila: 0 
+six: 0 
+stop: 0 
+three: 1 
+tree: 0 
+two: 57 
+up: 21 
+visual: 0 
+wow: 1 
+yes: 5 
+zero: 0 
+---
+
+======================
+ 1: Run with zeros input
+ x: Exit to previous menu
